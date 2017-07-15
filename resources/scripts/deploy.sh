@@ -21,7 +21,7 @@ npm install
 npm run production
 
 #
-sudo chown -R www-data:www-data storage
+sudo chmod -R guo+w storage
 sudo chown -R www-data:www-data bootstrap/cache
 sudo chown -R www-data:www-data public
 
