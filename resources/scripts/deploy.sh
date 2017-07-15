@@ -1,12 +1,13 @@
 #!/bin/bash
-#-------------------------------------------
+#-----------------------------------------------------------
 #   Laravel deployement script
 #   @author dooxe
-#-------------------------------------------
+#-----------------------------------------------------------
 
 # Include any user-specific scripts
 userscript="resources/scripts/user-deployement.sh"
 if [ -f "$userscript" ]
+then
     . "$userscript"
 fi
 
